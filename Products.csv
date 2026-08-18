@@ -1,0 +1,46 @@
+ProductID,ProductName,Category,Subcategory
+2001,Laptops_1,Technology,Laptops
+2002,Laptops_2,Technology,Laptops
+2003,Laptops_3,Technology,Laptops
+2004,Laptops_4,Technology,Laptops
+2005,Laptops_5,Technology,Laptops
+2006,Accessories_1,Technology,Accessories
+2007,Accessories_2,Technology,Accessories
+2008,Accessories_3,Technology,Accessories
+2009,Accessories_4,Technology,Accessories
+2010,Accessories_5,Technology,Accessories
+2011,Phones_1,Technology,Phones
+2012,Phones_2,Technology,Phones
+2013,Phones_3,Technology,Phones
+2014,Phones_4,Technology,Phones
+2015,Phones_5,Technology,Phones
+2016,Chairs_1,Furniture,Chairs
+2017,Chairs_2,Furniture,Chairs
+2018,Chairs_3,Furniture,Chairs
+2019,Chairs_4,Furniture,Chairs
+2020,Chairs_5,Furniture,Chairs
+2021,Tables_1,Furniture,Tables
+2022,Tables_2,Furniture,Tables
+2023,Tables_3,Furniture,Tables
+2024,Tables_4,Furniture,Tables
+2025,Tables_5,Furniture,Tables
+2026,Storage_1,Furniture,Storage
+2027,Storage_2,Furniture,Storage
+2028,Storage_3,Furniture,Storage
+2029,Storage_4,Furniture,Storage
+2030,Storage_5,Furniture,Storage
+2031,Binders_1,Office Supplies,Binders
+2032,Binders_2,Office Supplies,Binders
+2033,Binders_3,Office Supplies,Binders
+2034,Binders_4,Office Supplies,Binders
+2035,Binders_5,Office Supplies,Binders
+2036,Paper_1,Office Supplies,Paper
+2037,Paper_2,Office Supplies,Paper
+2038,Paper_3,Office Supplies,Paper
+2039,Paper_4,Office Supplies,Paper
+2040,Paper_5,Office Supplies,Paper
+2041,Labels_1,Office Supplies,Labels
+2042,Labels_2,Office Supplies,Labels
+2043,Labels_3,Office Supplies,Labels
+2044,Labels_4,Office Supplies,Labels
+2045,Labels_5,Office Supplies,Labels
