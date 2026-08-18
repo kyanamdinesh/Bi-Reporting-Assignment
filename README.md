@@ -30,9 +30,6 @@ To reproduce the SQL analysis:
 3. Keep the table names as Sales, Customers, Products, and Calendar.
 4. Run the queries in `Dinesh_Kyanam_SQL_Queries.sql`.
 
-## Key Insights
-
-Overall revenue across the three-year period is approximately $18.4M, with about 39K units sold. Technology is the strongest category and contributes the largest share of revenue. Regional performance is relatively balanced, with the West slightly ahead overall. Revenue is also distributed fairly evenly across the three customer segments, with SMB contributing the largest share. Monthly revenue fluctuates throughout the year, with stronger performance visible toward the end of the year. The dashboard also highlights the highest-performing products and allows leadership to filter performance by year.
 
 ## Summary
 The business generated about $18.41M in total revenue and sold around 39K units from 2023 to 2025. The average selling price was $471.50, and revenue after discounts was about $17.57M. Technology was the highest-performing product category. Sales were fairly balanced across customer segments, with SMB having the largest share. Among the regions, the West had the highest overall revenue. Monthly sales changed throughout the year, with some stronger months toward the end of the year. Overall, the business performed well across different products, customer segments, and regions.
