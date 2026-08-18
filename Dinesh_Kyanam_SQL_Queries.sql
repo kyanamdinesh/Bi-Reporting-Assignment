@@ -1,7 +1,8 @@
 Question 1
 Customer segment with the highest total unit price for each year
 
-SELECT
+WITH segment_sales AS (
+    SELECT
         strftime('%Y', s.OrderDate) AS year,
         c.Segment,
         SUM(s.UnitPrice) AS total_sales
@@ -11,7 +12,10 @@ SELECT
     GROUP BY strftime('%Y', s.OrderDate), c.Segment
 )
 
-SELECT year, Segment, ROUND(total_sales, 2) AS total_sales
+SELECT
+    year,
+    Segment,
+    ROUND(total_sales, 2) AS total_sales
 FROM segment_sales
 WHERE total_sales = (
     SELECT MAX(s2.total_sales)
