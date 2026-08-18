@@ -29,6 +29,8 @@ To reproduce the SQL analysis:
 2. Import `Sales.csv`, `Customers.csv`, `Products.csv`, and `Calendar.csv` as separate tables.
 3. Keep the table names as Sales, Customers, Products, and Calendar.
 4. Run the queries in `Dinesh_Kyanam_SQL_Queries.sql`.
+5. Keep the original CSV column names unchanged during import.
+6. Use SQLite 3.25 or newer because the month-over-month query uses the LAG() window function.
 
 
 ## Summary
