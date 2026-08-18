@@ -1,5 +1,5 @@
-Question 1
-Customer segment with the highest total unit price for each year
+--Question 1
+--Customer segment with the highest total unit price for each year
 
 WITH segment_sales AS (
     SELECT
@@ -27,8 +27,8 @@ ORDER BY year;
 
 
 
- Question 2
-Product subcategory with the highest growth in units sold from 2024 to 2025
+-- Question 2
+--Product subcategory with the highest growth in units sold from 2024 to 2025
 
 SELECT
     p.Subcategory,
@@ -51,8 +51,8 @@ LIMIT 1;
 
 
 
-Question 3
-Month-over-month change in total unit price by region for 2024
+--Question 3
+--Month-over-month change in total unit price by region for 2024
 
 WITH monthly_sales AS (
     SELECT
@@ -84,8 +84,8 @@ FROM sales_change
 ORDER BY Region, month;
 
 
-Question 4
-Compare average units sold with and without a discount by subcategory
+--Question 4
+--Compare average units sold with and without a discount by subcategory
 
 SELECT
     p.Subcategory,
@@ -106,8 +106,8 @@ ORDER BY avg_units_discounted - avg_units_no_discount DESC;
 
 
 
-Question 5
-Correct Customer_1096's segment from SMB to Enterprise
+--Question 5
+--Correct Customer_1096's segment from SMB to Enterprise
 
 UPDATE Customers
 SET Segment = 'Enterprise'
