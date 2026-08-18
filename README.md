@@ -33,5 +33,12 @@ To reproduce the SQL analysis:
 6. Use SQLite 3.25 or newer because the month-over-month query uses the LAG() window function.
 
 
-## Summary
-The business generated about $18.41M in total revenue and sold around 39K units from 2023 to 2025. The average selling price was $471.50, and revenue after discounts was about $17.57M. Technology was the highest-performing product category. Sales were fairly balanced across customer segments, with SMB having the largest share. Among the regions, the West had the highest overall revenue. Monthly sales changed throughout the year, with some stronger months toward the end of the year. Overall, the business performed well across different products, customer segments, and regions.
+## Summary of Key Insights
+
+- Technology is the strongest-performing product category by revenue, making it the primary driver of overall sales performance.
+- The SMB segment contributes the largest share of revenue, highlighting it as a key customer segment for continued growth and retention efforts.
+- The West region leads overall revenue performance, while lower-performing regions present opportunities for deeper analysis and targeted improvement.
+- Revenue trends vary across months, emphasizing the importance of monitoring period-over-period performance to identify seasonality and changes in demand.
+- A relatively small group of top-performing products contributes a meaningful share of revenue, making product-level performance an important area for inventory and sales planning.
+- Discount-adjusted revenue provides a more realistic view of business performance than gross revenue alone and helps identify the impact of discounting on realized sales.
+- Overall, the dashboard enables leadership to quickly identify the strongest categories, customer segments, regions, and products while also highlighting areas that may require further investigation.
